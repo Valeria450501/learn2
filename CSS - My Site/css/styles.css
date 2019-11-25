@@ -1,0 +1,166 @@
+div {
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 50px auto 0;
+  font-family: 'Sacramento', cursive;
+  color: #6c737e;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #6c737e;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #6c737e;
+  font-size: 2rem;
+}
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  background-color: none;
+  width: 5%;
+  border-style: dotted none none;
+  height: 0;
+  border-width: 8px;
+  border-color: #6c737e;
+  margin: 50px auto 50px;
+  position: relative;
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #7393a7;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #6c737e;
+  margin: 30px 15px 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #7393a7;
+}
+
+.presentation {
+  margin-top: 0;
+  background-color: #e8ecf1;
+  padding-top: 200px;
+}
+
+.profile {
+  width: 50%;
+  position: relative;
+  margin: 0 auto 0;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 100px;
+  left: 60%;
+  width: 10%
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 300px;
+  left: 30%;
+  width: 7%;
+}
+
+.sunrise-pic {
+  width: 25%;
+}
+
+.profile-photo{
+  border-radius: 100%;
+}
+
+.skill-row{
+  width: 50%;
+  position: relative;
+  text-align: left;
+  line-height: 2;
+  display: inline-block;
+}
+
+.java-skill-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.js-skill-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.footer {
+  color: white;
+  position: relative;
+  top: 47px;
+}
+
+.btn {
+  position: relative;
+  top: 40px;
+  background: #6c737e;
+  color: white;
+  padding: 10px;
+  text-align: center;
+border-radius: 5px;
+}
+
+.bottom-container {
+    background-color: #e8ecf1;
+    padding-top: 100px;
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #ffffff 5%, #6c737e 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #6c737e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c737e 5%, #ffffff 100%);
+	background-color:#6c737e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* .java-skill-text {
+  clear: left;
+}
+
+.js-skill-text {
+  clear: right;
+} */
